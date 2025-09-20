@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Homeseller</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-content not-observed-to-bottom">
+            
+            <nav class="content header-nav ">
+                <ul>
+                    <li><a class="logo" href="#">Real Estate</a></li>
+                    <li onclick="toggleMobileMenu()"> <!--Появляется только на телефонах-->
+                        <div class="mobile-menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <nav class="content header-nav-mobile">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="Swiper HeroSwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide hero-slide" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 40%, transparent), url('images/bg-hero.jpg');"></div>
+                    <div class="swiper-slide hero-slide" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 40%, transparent), url('images/bg-hero-2.jpg');"></div>
+                    <div class="swiper-slide hero-slide" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 40%, transparent), url('images/bg-hero-3.jpg');"></div>
+                
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="content hero-content">
+                <h1 class="hero-text not-observed-to-top">Продажа Недвижимости</h1>
+
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="content about-us-content">
+                <h3 class="not-observed-to-bottom">- О нас -</h3>
+                <p class="about-us-descr not-observed-to-right">Мы не просто продаем недвижимость, мы продает мечты!</p>
+
+                <div class="about-us-sub-content">
+                    <p class="not-observed-to-top">Мы не просто продает недвижимость, мы соблюдаем желания клиента</p>
+                    
+                    <div class="about-us-img not-observed-to-left">
+                        <img src="images/about-us.jpg" alt="about us image"> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sections-gradient">
+            <section id="work-info">
+                <div class="content work-info-content">
+                    <h2 class="content-descr">Мы добились <br> этих результатов</h2>
+                    
+                    <div class="work-info-results">
+                        <div class="work-info-result">
+                            <h2 class="work-info-result-title">Завершено проектов</h2>
+                            <span class="work-num" data-count="200">100</span>
+                        </div>
+                        
+                        <div class="work-info-result">
+                            <h2 class="work-info-result-title">Завершено проектов</h2>
+                            <span class="work-num" data-count="200">100</span>
+                        </div>
+                        
+                        <div class="work-info-result">
+                            <h2 class="work-info-result-title">Завершено проектов</h2>
+                            <span class="work-num" data-count="200">100</span>
+                        </div>
+                        
+                        <div class="work-info-result">
+                            <h2 class="work-info-result-title">Завершено проектов</h2>
+                            <span class="work-num" data-count="200">100</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="property-section">
+                <div class="content properties-content">
+                    <h2>Наши проекты</h2>
+                    <p class="properties-section-descr">Дома, в которые вы влюбитесь</p>
+
+                    <div class="property-cards">
+
+                        <div class="property-card">
+                            <div class="property-card-bg" style="background-image: url(images/card-one.jpg);"></div>
+                            <div class="property-card-bg-overlay"></div>
+                            
+                            <div class="property-card-info">
+                                <p>W: 100px,</p>
+                                <p>H: 100px,</p> 
+                                <p>Deg: 90</p>
+                            </div>
+
+                            <div class="property-card-label">
+                                <div>
+                                    <h3>UAE Dubai</h3>
+                                    <h2>Name: CoolName</h2>
+                                </div>
+                                <h2>Price: 10.000.000 $</h2>
+                            </div>
+                        </div>
+
+                        <div class="property-card">
+                            <div class="property-card-bg" style="background-image: url(images/card-two.jpg);"></div>
+                            <div class="property-card-bg-overlay"></div>
+                            
+                            <div class="property-card-info">
+                                <p>W: 100px,</p>
+                                <p>H: 100px,</p> 
+                                <p>Deg: 90</p>
+                            </div>
+
+                            <div class="property-card-label">
+                                <div>
+                                    <h3>UAE Dubai</h3>
+                                    <h2>Name: CoolName</h2>
+                                </div>
+                                <h2>Price: 10.000.000 $</h2>
+                            </div>
+                        </div>
+
+                        <div class="property-card">
+                            <div class="property-card-bg" style="background-image: url(images/house-1.jpg);"></div>
+                            <div class="property-card-bg-overlay"></div>
+                            
+                            <div class="property-card-info">
+                                <p>W: 100px,</p>
+                                <p>H: 100px,</p> 
+                                <p>Deg: 90</p>
+                            </div>
+
+                            <div class="property-card-label">
+                                <div>
+                                    <h3>UAE Dubai</h3>
+                                    <h2>Name: CoolName</h2>
+                                </div>
+                                <h2>Price: 10.000.000 $</h2>
+                            </div>
+                        </div>
+
+                        <div class="property-card">
+                            <div class="property-card-bg" style="background-image: url(images/house-2.jpg);"></div>
+                            <div class="property-card-bg-overlay"></div>
+                            
+                            <div class="property-card-info">
+                                <p>W: 100px,</p>
+                                <p>H: 100px,</p> 
+                                <p>Deg: 90</p>
+                            </div>
+
+                            <div class="property-card-label">
+                                <div>
+                                    <h3>UAE Dubai</h3>
+                                    <h2>Name: CoolName</h2>
+                                </div>
+                                <h2>Price: 10.000.000 $</h2>
+                            </div>
+                        </div>
+
+                        <div class="property-card">
+                            <div class="property-card-bg" style="background-image: url(images/house-3.jpg);"></div>
+                            <div class="property-card-bg-overlay"></div>
+                            
+                            <div class="property-card-info">
+                                <p>W: 100px,</p>
+                                <p>H: 100px,</p> 
+                                <p>Deg: 90</p>
+                            </div>
+
+                            <div class="property-card-label">
+                                <div>
+                                    <h3>UAE Dubai</h3>
+                                    <h2>Luxury house</h2>
+                                </div>
+                                <h2>Price: 10.000.000 $</h2>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="reviews">
+                <div class="content reviews-content">
+                    <h2 class="section-label">Отзывы</h2>
+                    <p class="section-descr">Что о нас пишут клиенты</p>
+
+                    <div class="swiper ReviewsSwiper">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide review-card">
+                                <p>Нам предоставили прекраный дом в Дубае</p>
+                                <h3>Мария</h3>
+                            </div>
+
+                            <div class="swiper-slide review-card">
+                                <p>Проконсультировались в большом прекрасном помещении, это говорит о многом</p>
+                                <h3>Олег</h3>
+                            </div>
+
+                            <div class="swiper-slide review-card">
+                                <p>Купили дом на острове JBR и не жалеем что купили у вас</p>
+                                <h3>Сергей</h3>
+                            </div>
+
+                            <div class="swiper-slide review-card">
+                                <p>Спасибо за быстрый ответ
+                                <h3>Абдулла</h3>
+                            </div>
+
+                            <div class="swiper-slide review-card">
+                                <p>Я Тимур</p>
+                                <h3>Тимур</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="faq">
+            <div class="content faq-content">
+                <div class="content-main-text">
+                    <h2>FAQ</h2>
+                    <p>Ответы на частые вопросы</p>
+                </div>
+
+                <div class="faq-wrapper">
+                    <div class="question-line">
+                        <p class="question-line-q">Как быстро мы отвечаем? <span class="question-line-arrow">></span></p>
+                        <p class="question-line-a">Наша команда ответит вам в течении 24ч с момента отправки письма.</p>
+                    </div>
+
+                    <div class="question-line">
+                        <p class="question-line-q">Что мы продаем? <span class="question-line-arrow">></span></p>
+                        <p class="question-line-a">Мы продаем недвижимость в Дубае.</p>
+                    </div>
+
+                    <div class="question-line">
+                        <p class="question-line-q">Бесплатна ли наша консультация? <span class="question-line-arrow">></span></p>
+                        <p class="question-line-a">Мы проконсультируем вас абсолютно бесплатно.</p>
+                    </div>
+
+                    <div class="question-line">
+                        <p class="question-line-q">Как с нами связатся? <span class="question-line-arrow">></span></p>
+                        <p class="question-line-a">Позвоните нам по номеру +1234567890 или напишите нам на почту example@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="content contact-content">
+                <div class="contact-info">
+
+                    <div class="content-main-text">
+                        <h2>Контакты</h2>
+                        <p>Свяжитесь с нами</p>
+                        
+                    </div>
+        
+                    <p class="contact-txt">Заинтересовал один из наших проектов? <br> Свяжитесь с нами и мы ответим в течении 24 часов!</p>
+                    
+                    <h3 class="address-label">Наш адрес</h3>
+                    <address>Address address address</address>
+                </div>
+
+                <form>
+                    <div class="form-user-info">
+                        <div class="user-info">
+                            <label>Имя</label>
+                            <input type="text" name="name" id="name" class="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="user-info">
+                            <label>Почта</label>
+                            <input type="email" name="email" id="email" placeholder="Ваша почта" required>
+                        </div>
+                    </div>
+                    <label>Сообщение</label>
+                    <textarea name="message" id="message" placeholder="Ваше Сообщение Нам" required></textarea>
+                    <input type="submit" name="submit" id="submit-btn" class="submit-btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
